@@ -67,3 +67,935 @@ Binding(ALT+SHIFT+R,
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-20 15:25:01.097
 !MESSAGE 'mcuboot_ra2l1' がインデックス化されました (63 ソースファイル, 151 ヘッダ) 3.54 秒以内: 14,437 個の宣言; 27,864 個の参照; 0 個の未解決インクルード; 3 個の文法エラー; 0 個の未解決名 (0%)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:03:38.187
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/e2studio9, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:14.134
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-update.iar.com/plugin-manager/1.0/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:17.904
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.203
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.348
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.492
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.658
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.805
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-09-20 16:08:18.949
+!MESSAGE Using unsafe http transport to retrieve http://tool-support.renesas.com/e2studio/qe/qe-common/V1.5.1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.ui.monitoring 4 0 2024-09-20 17:07:26.485
+!MESSAGE 17:07:23.603 の 2.9 の UI フリーズ
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.485
+!MESSAGE 17:07:24.704 のサンプル (+1.101s)
+スレッド 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.preShutdown(RenesasDataReporter.java:322)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:919)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil$$Lambda$146/0x0000000100217c40.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.ui.internal.Workbench.firePreShutdown(Workbench.java:916)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1045)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1709/0x0000000100f44b08.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1708/0x0000000100f448e8.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$501/0x00000001005c6cd0.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$448/0x0000000100561150.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.ui.internal.Workbench$$Lambda$311/0x000000010033cbd0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:677)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:614)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1485)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.486
+!MESSAGE スレッド 'Common-Cleaner' tid=13 (TIMED_WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@0b5bbd47
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.486
+!MESSAGE スレッド 'Active Thread: Equinox Container: 8d3657bd-0113-443f-9e8e-d26ae6fe5785' tid=16 (TIMED_WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f16402c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.486
+!MESSAGE スレッド 'SCR Component Actor' tid=20 (WAITING)
+待機中: java.util.LinkedList@4b86451c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.486
+!MESSAGE スレッド 'Worker-JM' tid=23 (WAITING)
+待機中: java.util.ArrayList@372dc919
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'EMF Reference Cleaner' tid=24 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@21494fec
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Gogo shell' tid=27 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@589e507c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'BC Entropy Daemon' tid=32 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at org.bouncycastle.jcajce.provider.drbg.DRBG$EntropyDaemon.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Git Repository Closer' tid=33 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@6dfc6774
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Java インデックス作成' tid=36 (WAITING)
+待機中: org.eclipse.jdt.internal.core.search.indexing.IndexManager@34c01ed3
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:452)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'pool-2-thread-1' tid=39 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@752ab7a7
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'pool-3-thread-1' tid=40 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7be3b9b1
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'JNA Cleaner' tid=41 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@4f610698
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Integration Sevice' tid=54 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.IntegrationServiceManager.run(IntegrationServiceManager.java:293)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'IS Control Socket' tid=56 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.ControlSocketThread.run(ControlSocketThread.java:100)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Thread-11' tid=88 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.software.installer.internal.update.UpdateChecker$UpdateCheckerThread.run(UpdateChecker.java:56)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Renesas Installer - 0' tid=120 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@792a489a
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'pool-4-thread-1' tid=145 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3fd65aa5
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Thread-16' tid=149 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@61bc5972
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at java.base@17.0.5/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.processEvents(FilteredFolderWatcher.java:222)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.run(FilteredFolderWatcher.java:212)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Worker-41' tid=196 (RUNNABLE)
+!STACK 0
+スタック・トレース
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Natives.WaitForMultipleObjects(Native Method)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.waitForNotification(Win32Monitor.java:602)
+	at org.eclipse.core.internal.resources.refresh.win32.Win32Monitor.run(Win32Monitor.java:539)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE スレッド 'Renesas Reporting-0' tid=201 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32d9ac33
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.487
+!MESSAGE 17:07:25.132 のサンプル (+0.428s)
+スレッド 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.preShutdown(RenesasDataReporter.java:322)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:919)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil$$Lambda$146/0x0000000100217c40.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.ui.internal.Workbench.firePreShutdown(Workbench.java:916)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1045)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1709/0x0000000100f44b08.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1708/0x0000000100f448e8.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$501/0x00000001005c6cd0.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$448/0x0000000100561150.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.ui.internal.Workbench$$Lambda$311/0x000000010033cbd0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:677)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:614)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1485)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.488
+!MESSAGE スレッド 'Common-Cleaner' tid=13 (TIMED_WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@0b5bbd47
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'Active Thread: Equinox Container: 8d3657bd-0113-443f-9e8e-d26ae6fe5785' tid=16 (TIMED_WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f16402c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'SCR Component Actor' tid=20 (WAITING)
+待機中: java.util.LinkedList@4b86451c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'Worker-JM' tid=23 (WAITING)
+待機中: java.util.ArrayList@372dc919
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'EMF Reference Cleaner' tid=24 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@21494fec
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'Gogo shell' tid=27 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@589e507c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'BC Entropy Daemon' tid=32 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at org.bouncycastle.jcajce.provider.drbg.DRBG$EntropyDaemon.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.489
+!MESSAGE スレッド 'Git Repository Closer' tid=33 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@6dfc6774
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'Java インデックス作成' tid=36 (WAITING)
+待機中: org.eclipse.jdt.internal.core.search.indexing.IndexManager@34c01ed3
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:452)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'pool-2-thread-1' tid=39 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@752ab7a7
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'pool-3-thread-1' tid=40 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7be3b9b1
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'JNA Cleaner' tid=41 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@4f610698
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'Integration Sevice' tid=54 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.IntegrationServiceManager.run(IntegrationServiceManager.java:293)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'IS Control Socket' tid=56 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.ControlSocketThread.run(ControlSocketThread.java:100)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.490
+!MESSAGE スレッド 'Thread-11' tid=88 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.software.installer.internal.update.UpdateChecker$UpdateCheckerThread.run(UpdateChecker.java:56)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.491
+!MESSAGE スレッド 'Renesas Installer - 0' tid=120 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@792a489a
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.491
+!MESSAGE スレッド 'pool-4-thread-1' tid=145 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3fd65aa5
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.491
+!MESSAGE スレッド 'Thread-16' tid=149 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@61bc5972
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at java.base@17.0.5/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.processEvents(FilteredFolderWatcher.java:222)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.run(FilteredFolderWatcher.java:212)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.491
+!MESSAGE スレッド 'Renesas Reporting-0' tid=201 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32d9ac33
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.493
+!MESSAGE 17:07:25.689 のサンプル (+0.557s)
+スレッド 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.preShutdown(RenesasDataReporter.java:322)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:919)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil$$Lambda$146/0x0000000100217c40.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.ui.internal.Workbench.firePreShutdown(Workbench.java:916)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1045)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1709/0x0000000100f44b08.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1367)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1708/0x0000000100f448e8.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1744)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1753)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:504)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$501/0x00000001005c6cd0.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$448/0x0000000100561150.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4256)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1550)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4745)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4844)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2284)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5022)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3640)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.ui.internal.Workbench$$Lambda$311/0x000000010033cbd0.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.5/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:677)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:614)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1485)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Common-Cleaner' tid=13 (TIMED_WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@0b5bbd47
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Active Thread: Equinox Container: 8d3657bd-0113-443f-9e8e-d26ae6fe5785' tid=16 (TIMED_WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2f16402c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'SCR Component Actor' tid=20 (WAITING)
+待機中: java.util.LinkedList@4b86451c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Worker-JM' tid=23 (WAITING)
+待機中: java.util.ArrayList@372dc919
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'EMF Reference Cleaner' tid=24 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@21494fec
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Gogo shell' tid=27 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@589e507c
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'BC Entropy Daemon' tid=32 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at org.bouncycastle.jcajce.provider.drbg.DRBG$EntropyDaemon.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Git Repository Closer' tid=33 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@6dfc6774
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'Java インデックス作成' tid=36 (WAITING)
+待機中: org.eclipse.jdt.internal.core.search.indexing.IndexManager@34c01ed3
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:452)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'pool-2-thread-1' tid=39 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@752ab7a7
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'pool-3-thread-1' tid=40 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7be3b9b1
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.494
+!MESSAGE スレッド 'JNA Cleaner' tid=41 (WAITING)
+待機中: java.lang.ref.ReferenceQueue$Lock@4f610698
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'Integration Sevice' tid=54 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.IntegrationServiceManager.run(IntegrationServiceManager.java:293)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'IS Control Socket' tid=56 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.common.is.service.internal.ControlSocketThread.run(ControlSocketThread.java:100)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'Thread-11' tid=88 (TIMED_WAITING)
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at com.renesas.software.installer.internal.update.UpdateChecker$UpdateCheckerThread.run(UpdateChecker.java:56)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'Renesas Installer - 0' tid=120 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@792a489a
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'pool-4-thread-1' tid=145 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3fd65aa5
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'Thread-16' tid=149 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@61bc5972
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at java.base@17.0.5/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.processEvents(FilteredFolderWatcher.java:222)
+	at com.renesas.cdt.ddsc.internal.ddsccommon.utils.FilteredFolderWatcher$FilterableFolderWatcherRunnable.run(FilteredFolderWatcher.java:212)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2024-09-20 17:07:26.495
+!MESSAGE スレッド 'Renesas Reporting-0' tid=201 (WAITING)
+待機中: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@32d9ac33
+!STACK 0
+スタック・トレース
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
