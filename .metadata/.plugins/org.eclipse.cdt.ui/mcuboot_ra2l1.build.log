@@ -1,0 +1,81 @@
+15:25:42 **** プロジェクト mcuboot_ra2l1 に対する構成 Debug の ビルド ****
+make -r -j12 all 
+make --no-print-directory pre-build
+del mcuboot_ra2l1.elf
+process_begin: CreateProcess(NULL, del mcuboot_ra2l1.elf, ...) failed.
+make (e=2): 謖?螳壹＆繧後◆繝輔ぃ繧､繝ｫ縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縲?
+
+make[1]: [makefile:124: pre-build] Error 2 (ignored)
+ 
+make --no-print-directory main-build
+Building file: ../src/hal_entry.c
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/mcu-tools/MCUboot/sim/mcuboot-sys/csupport/keys.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_decrypt.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_encrypt.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cbc_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ccm_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cmac_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_prng.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dh.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dsa.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_platform_specific.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/gcm_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac_prng.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/sha256.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/utils.c
+Building file: ../ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/asn1parse.c
+Building file: ../ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/platform_util.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/caps.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/loader.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_ec256.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_rsa.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_keys.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/flash_map.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/r_flash_lp/r_flash_lp.c
+Building file: ../ra/fsp/src/bsp/mcu/ra2l1/bsp_power.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building target: mcuboot_ra2l1.elf
+arm-none-eabi-objcopy -O srec "mcuboot_ra2l1.elf"  "mcuboot_ra2l1.srec"
+arm-none-eabi-size --format=berkeley "mcuboot_ra2l1.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13560	      0	   4720	  18280	   4768	mcuboot_ra2l1.elf
+
+15:25:46 Build Finished. 0 errors, 0 warnings. (took 4s.420ms)
+

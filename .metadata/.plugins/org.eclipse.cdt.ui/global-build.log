@@ -1,0 +1,872 @@
+Extracting support files...
+15:25:20 **** プロジェクト HK に対する構成 Debug の クリーンのみのビルド ****
+make -r -j12 clean 
+rm -rf HK.siz R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec R1.srec HK.srec R1.srec R1.srec R1.srec R1.srec HK.srec R1.srec R1.srec HK.srec HK.srec R1.srec HK.srec HK.srec HK.srec HK.srec ./src/nfc/phOsal/src/NullOs/portable/phOsal_Port_R7FA2L1AB2DFP.d ./src/nfc/phOsal/src/NullOs/phOsal_NullOs.d ./src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.d ./src/nfc/NxpNfcRdLib/comps/phpalMifare/src/phpalMifare.d ./src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.d ./src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.d ./src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.d ./src/nfc/NxpNfcRdLib/comps/phpalFelica/src/phpalFelica.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU_Int.d ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/phhalHw.d ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.d ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc.d ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.d ./src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.d ./src/nfc/NxpNfcRdLib/comps/phalFelica/src/phalFelica.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_ECP.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.d ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/phacDiscLoop.d ./src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.d ./src/nfc/NxpNfcRdLib/comps/phTools/src/phTools_Q.d ./src/nfc/NxpNfcRdLib/comps/phTMIUtils/src/phTMIUtils.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_15693.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_18000p3m3.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Initialization.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFC.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFDF.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFUL.d ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Utility.d ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.d ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.d ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/phKeyStore.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Lrp.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Aes.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Int.d ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/phCryptoSym.d ./src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/Sw/phCryptoRng_Sw.d ./src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/phCryptoRng.d ./src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.d ./src/nfc/DAL/src/R7FA2L1AB2DFP/phbalReg_R7FA2L1AB2DFPOpenSpi.d ./src/nfc/nfc_ctrl.d ./src/nfc/phApp_Helper.d ./src/nfc/phApp_Init.d ./src/nfc/phApp_PN5190_Init.d ./ra_gen/common_data.d ./ra_gen/hal_data.d ./ra_gen/main.d ./ra_gen/pin_data.d ./ra_gen/vector_data.d ./ra/fsp/src/rm_vee_flash/rm_vee_flash.d ./ra/fsp/src/r_wdt/r_wdt.d ./ra/fsp/src/r_spi/r_spi.d ./ra/fsp/src/r_sci_uart/r_sci_uart.d ./ra/fsp/src/r_ioport/r_ioport.d ./ra/fsp/src/r_icu/r_icu.d ./ra/fsp/src/r_gpt/r_gpt.d ./ra/fsp/src/r_flash_lp/r_flash_lp.d ./ra/fsp/src/r_dtc/r_dtc.d ./ra/fsp/src/r_agt/r_agt.d ./ra/fsp/src/r_adc/r_adc.d ./ra/fsp/src/bsp/mcu/ra2l1/bsp_power.d ./ra/fsp/src/bsp/mcu/all/bsp_clocks.d ./ra/fsp/src/bsp/mcu/all/bsp_common.d ./ra/fsp/src/bsp/mcu/all/bsp_delay.d ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.d ./ra/fsp/src/bsp/mcu/all/bsp_guard.d ./ra/fsp/src/bsp/mcu/all/bsp_io.d ./ra/fsp/src/bsp/mcu/all/bsp_irq.d ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.d ./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.d ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.d ./ra/fsp/src/bsp/mcu/all/bsp_security.d ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.d ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.d ./src/nfc/phOsal/src/NullOs/portable/phOsal_Port_R7FA2L1AB2DFP.o ./src/nfc/phOsal/src/NullOs/phOsal_NullOs.o ./src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.o ./src/nfc/NxpNfcRdLib/comps/phpalMifare/src/phpalMifare.o ./src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.o ./src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.o ./src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.o ./src/nfc/NxpNfcRdLib/comps/phpalFelica/src/phpalFelica.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU_Int.o ./src/nfc/NxpNfcRdLib/comps/phhalHw/src/phhalHw.o ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.o ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc.o ./src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.o ./src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.o ./src/nfc/NxpNfcRdLib/comps/phalFelica/src/phalFelica.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_ECP.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.o ./src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/phacDiscLoop.o ./src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.o ./src/nfc/NxpNfcRdLib/comps/phTools/src/phTools_Q.o ./src/nfc/NxpNfcRdLib/comps/phTMIUtils/src/phTMIUtils.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_15693.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_18000p3m3.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Initialization.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFC.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFDF.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFUL.o ./src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Utility.o ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.o ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.o ./src/nfc/NxpNfcRdLib/comps/phKeyStore/src/phKeyStore.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Lrp.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Aes.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Int.o ./src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/phCryptoSym.o ./src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/Sw/phCryptoRng_Sw.o ./src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/phCryptoRng.o ./src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.o ./src/nfc/DAL/src/R7FA2L1AB2DFP/phbalReg_R7FA2L1AB2DFPOpenSpi.o ./src/nfc/nfc_ctrl.o ./src/nfc/phApp_Helper.o ./src/nfc/phApp_Init.o ./src/nfc/phApp_PN5190_Init.o ./src/Task/CommandReceiver.o ./src/Task/DataManager.o ./src/Task/DebugCommand.o ./src/Task/EventSender.o ./src/Task/FwUpdater.o ./src/Task/NfcReader.o ./src/Task/OutputController.o ./src/StateTransition/BaseTask.o ./src/StateTransition/EventControl.o ./src/StateTransition/State.o ./src/StateTransition/TaskControl.o ./src/StateTransition/common.o ./src/Device/ADC.o ./src/Device/AGT.o ./src/Device/IOPort.o ./src/Device/PWM.o ./src/Device/UART.o ./src/Device/WDT.o ./src/hal_entry.o ./ra_gen/common_data.o ./ra_gen/hal_data.o ./ra_gen/main.o ./ra_gen/pin_data.o ./ra_gen/vector_data.o ./ra/fsp/src/rm_vee_flash/rm_vee_flash.o ./ra/fsp/src/r_wdt/r_wdt.o ./ra/fsp/src/r_spi/r_spi.o ./ra/fsp/src/r_sci_uart/r_sci_uart.o ./ra/fsp/src/r_ioport/r_ioport.o ./ra/fsp/src/r_icu/r_icu.o ./ra/fsp/src/r_gpt/r_gpt.o ./ra/fsp/src/r_flash_lp/r_flash_lp.o ./ra/fsp/src/r_dtc/r_dtc.o ./ra/fsp/src/r_agt/r_agt.o ./ra/fsp/src/r_adc/r_adc.o ./ra/fsp/src/bsp/mcu/ra2l1/bsp_power.o ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o ./ra/fsp/src/bsp/mcu/all/bsp_common.o ./ra/fsp/src/bsp/mcu/all/bsp_delay.o ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o ./ra/fsp/src/bsp/mcu/all/bsp_guard.o ./ra/fsp/src/bsp/mcu/all/bsp_io.o ./ra/fsp/src/bsp/mcu/all/bsp_irq.o ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o ./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o ./ra/fsp/src/bsp/mcu/all/bsp_security.o ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o HK.srec R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map R1.map HK.map R1.map R1.map R1.map R1.map HK.map R1.map R1.map HK.map HK.map R1.map HK.map HK.map HK.map HK.map ./src/Task/CommandReceiver.d ./src/Task/DataManager.d ./src/Task/DebugCommand.d ./src/Task/EventSender.d ./src/Task/FwUpdater.d ./src/Task/NfcReader.d ./src/Task/OutputController.d ./src/StateTransition/BaseTask.d ./src/StateTransition/EventControl.d ./src/StateTransition/State.d ./src/StateTransition/TaskControl.d ./src/StateTransition/common.d ./src/Device/ADC.d ./src/Device/AGT.d ./src/Device/IOPort.d ./src/Device/PWM.d ./src/Device/UART.d ./src/Device/WDT.d ./src/hal_entry.d
+rm -rf  HK.elf
+ 
+Extracting support files...
+15:25:22 **** プロジェクト HK に対する構成 Debug の ビルド ****
+make -r -j12 all 
+Building file: ../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c
+Building file: ../src/nfc/phOsal/src/NullOs/portable/phOsal_Port_R7FA2L1AB2DFP.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/phpalMifare.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/phpalFelica.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c
+../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c: In function 'phpalMifare_Sw_ExchangeL3':
+../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c:177:19: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  177 |         wCrcIn |= (uint16_t)((*ppRxBuffer)[(*pRxLength) - 2U]);
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c:180:23: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  180 |         *pRxLength -= 2U;
+      |                       ^~
+../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c: In function 'phpalMifare_Sw_GetConfig':
+../src/nfc/NxpNfcRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c:565:67: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  565 |                                     phpalMifare_Sw_DataParams_t * pDataParams,
+      |                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c: In function 'phpalI14443p3a_Sw_Anticollision':
+../src/nfc/NxpNfcRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c:319:26: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  319 |             bBitCount -= 8U;
+      |                          ^~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_EventPost':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:153:77: warning: unused parameter 'options' [-Wunused-parameter]
+  153 | phStatus_t phOsal_EventPost(phOsal_Event_t * eventHandle, phOsal_EventOpt_t options, phOsal_EventBits_t FlagsToPost,
+      |                                                           ~~~~~~~~~~~~~~~~~~^~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_EventClear':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:183:78: warning: unused parameter 'options' [-Wunused-parameter]
+  183 | phStatus_t phOsal_EventClear(phOsal_Event_t * eventHandle, phOsal_EventOpt_t options, phOsal_EventBits_t FlagsToClear,
+      |                                                            ~~~~~~~~~~~~~~~~~~^~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_EventDelete':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:229:20: warning: conversion to 'long unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  229 |     gdwEventBitMap &= ~(1 << (((pphOsal_EventObj_t)eventHandle)->dwEventIndex));
+      |                    ^~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerCreate':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:236:47: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  236 | phStatus_t phOsal_TimerCreate(phOsal_Timer_t *timerHandle, pphOsal_TimerObj_t timerObj)
+      |                               ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:236:79: warning: unused parameter 'timerObj' [-Wunused-parameter]
+  236 | phStatus_t phOsal_TimerCreate(phOsal_Timer_t *timerHandle, pphOsal_TimerObj_t timerObj)
+      |                                                            ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerStart':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:241:47: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  241 | phStatus_t phOsal_TimerStart(phOsal_Timer_t * timerHandle)
+      |                              ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerStop':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:246:46: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  246 | phStatus_t phOsal_TimerStop(phOsal_Timer_t * timerHandle)
+      |                             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerGetCurrent':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:251:52: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  251 | phStatus_t phOsal_TimerGetCurrent(phOsal_Timer_t * timerHandle, uint32_t * pdwGetElapsedTime)
+      |                                   ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:251:76: warning: unused parameter 'pdwGetElapsedTime' [-Wunused-parameter]
+  251 | phStatus_t phOsal_TimerGetCurrent(phOsal_Timer_t * timerHandle, uint32_t * pdwGetElapsedTime)
+      |                                                                 ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerModify':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:256:47: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  256 | phStatus_t phOsal_TimerModify(phOsal_Timer_t *timerHandle, pphOsal_TimerObj_t timerObj)
+      |                               ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:256:79: warning: unused parameter 'timerObj' [-Wunused-parameter]
+  256 | phStatus_t phOsal_TimerModify(phOsal_Timer_t *timerHandle, pphOsal_TimerObj_t timerObj)
+      |                                                            ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_TimerDelete':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:261:48: warning: unused parameter 'timerHandle' [-Wunused-parameter]
+  261 | phStatus_t phOsal_TimerDelete(phOsal_Timer_t * timerHandle)
+      |                               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_ThreadSecureStack':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:266:46: warning: unused parameter 'stackSizeInNum' [-Wunused-parameter]
+  266 | phStatus_t phOsal_ThreadSecureStack(uint32_t stackSizeInNum)
+      |                                     ~~~~~~~~~^~~~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_ThreadDelete':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:271:50: warning: unused parameter 'threadHandle' [-Wunused-parameter]
+  271 | phStatus_t phOsal_ThreadDelete(phOsal_Thread_t * threadHandle)
+      |                                ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_ThreadCreate':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:276:49: warning: unused parameter 'threadHandle' [-Wunused-parameter]
+  276 | phStatus_t phOsal_ThreadCreate(phOsal_Thread_t *threadHandle, pphOsal_ThreadObj_t threadObj, pphOsal_StartFunc_t startFunc, void *arg)
+      |                                ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:276:83: warning: unused parameter 'threadObj' [-Wunused-parameter]
+  276 | phStatus_t phOsal_ThreadCreate(phOsal_Thread_t *threadHandle, pphOsal_ThreadObj_t threadObj, pphOsal_StartFunc_t startFunc, void *arg)
+      |                                                               ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:276:114: warning: unused parameter 'startFunc' [-Wunused-parameter]
+  276 | phStatus_t phOsal_ThreadCreate(phOsal_Thread_t *threadHandle, pphOsal_ThreadObj_t threadObj, pphOsal_StartFunc_t startFunc, void *arg)
+      |                                                                                              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:276:131: warning: unused parameter 'arg' [-Wunused-parameter]
+  276 | phStatus_t phOsal_ThreadCreate(phOsal_Thread_t *threadHandle, pphOsal_ThreadObj_t threadObj, pphOsal_StartFunc_t startFunc, void *arg)
+      |                                                                                                                             ~~~~~~^~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_ThreadChangePrio':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:281:54: warning: unused parameter 'threadHandle' [-Wunused-parameter]
+  281 | phStatus_t phOsal_ThreadChangePrio(phOsal_Thread_t * threadHandle, uint32_t newPrio)
+      |                                    ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:281:77: warning: unused parameter 'newPrio' [-Wunused-parameter]
+  281 | phStatus_t phOsal_ThreadChangePrio(phOsal_Thread_t * threadHandle, uint32_t newPrio)
+      |                                                                    ~~~~~~~~~^~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_ThreadDelay':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:291:46: warning: unused parameter 'ticksToSleep' [-Wunused-parameter]
+  291 | phStatus_t phOsal_ThreadDelay(phOsal_Ticks_t ticksToSleep)
+      |                               ~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_SemCreate':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:296:49: warning: unused parameter 'semHandle' [-Wunused-parameter]
+  296 | phStatus_t phOsal_SemCreate(phOsal_Semaphore_t *semHandle, pphOsal_SemObj_t semObj,phOsal_SemOpt_t opt)
+      |                             ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:296:77: warning: unused parameter 'semObj' [-Wunused-parameter]
+  296 | phStatus_t phOsal_SemCreate(phOsal_Semaphore_t *semHandle, pphOsal_SemObj_t semObj,phOsal_SemOpt_t opt)
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:296:100: warning: unused parameter 'opt' [-Wunused-parameter]
+  296 | phStatus_t phOsal_SemCreate(phOsal_Semaphore_t *semHandle, pphOsal_SemObj_t semObj,phOsal_SemOpt_t opt)
+      |                                                                                    ~~~~~~~~~~~~~~~~^~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_SemPend':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:301:48: warning: unused parameter 'semHandle' [-Wunused-parameter]
+  301 | phStatus_t phOsal_SemPend(phOsal_Semaphore_t * semHandle, phOsal_TimerPeriodObj_t timePeriodToWait)
+      |                           ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:301:83: warning: unused parameter 'timePeriodToWait' [-Wunused-parameter]
+  301 | phStatus_t phOsal_SemPend(phOsal_Semaphore_t * semHandle, phOsal_TimerPeriodObj_t timePeriodToWait)
+      |                                                           ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_SemPost':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:306:48: warning: unused parameter 'semHandle' [-Wunused-parameter]
+  306 | phStatus_t phOsal_SemPost(phOsal_Semaphore_t * semHandle, phOsal_SemOpt_t opt)
+      |                           ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:306:75: warning: unused parameter 'opt' [-Wunused-parameter]
+  306 | phStatus_t phOsal_SemPost(phOsal_Semaphore_t * semHandle, phOsal_SemOpt_t opt)
+      |                                                           ~~~~~~~~~~~~~~~~^~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_SemDelete':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:311:50: warning: unused parameter 'semHandle' [-Wunused-parameter]
+  311 | phStatus_t phOsal_SemDelete(phOsal_Semaphore_t * semHandle)
+      |                             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_MutexCreate':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:316:47: warning: unused parameter 'mutexHandle' [-Wunused-parameter]
+  316 | phStatus_t phOsal_MutexCreate(phOsal_Mutex_t *mutexHandle, pphOsal_MutexObj_t mutexObj)
+      |                               ~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:316:79: warning: unused parameter 'mutexObj' [-Wunused-parameter]
+  316 | phStatus_t phOsal_MutexCreate(phOsal_Mutex_t *mutexHandle, pphOsal_MutexObj_t mutexObj)
+      |                                                            ~~~~~~~~~~~~~~~~~~~^~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_MutexLock':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:321:46: warning: unused parameter 'mutexHandle' [-Wunused-parameter]
+  321 | phStatus_t phOsal_MutexLock(phOsal_Mutex_t * mutexHandle, phOsal_TimerPeriodObj_t timePeriodToWait)
+      |                             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:321:83: warning: unused parameter 'timePeriodToWait' [-Wunused-parameter]
+  321 | phStatus_t phOsal_MutexLock(phOsal_Mutex_t * mutexHandle, phOsal_TimerPeriodObj_t timePeriodToWait)
+      |                                                           ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_MutexUnLock':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:326:48: warning: unused parameter 'mutexHandle' [-Wunused-parameter]
+  326 | phStatus_t phOsal_MutexUnLock(phOsal_Mutex_t * mutexHandle)
+      |                               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c: In function 'phOsal_MutexDelete':
+../src/nfc/phOsal/src/NullOs/phOsal_NullOs.c:331:48: warning: unused parameter 'mutexHandle' [-Wunused-parameter]
+  331 | phStatus_t phOsal_MutexDelete(phOsal_Mutex_t * mutexHandle)
+      |                               ~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c: In function 'phpalFelica_Sw_ReqC':
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:35:40: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+   35 | #define FDTF_LISTEN_SENSF_REQ(x, y)    ((PHPAL_FELICA_SW_T_DELAY_US + ((x) * PHPAL_FELICA_SW_T_TIMESLOT_US)) + y)    /**< NFC Forum Digital Protocol Technical Specification v1.1 : 8.7.1 : FDTF,LISTEN,SENSF_REQ */
+      |                                        ^
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:125:22: note: in expansion of macro 'FDTF_LISTEN_SENSF_REQ'
+  125 |         wTimeOutUs = FDTF_LISTEN_SENSF_REQ((((uint16_t)bNumTimeSlots) + 1U), wTR1ValueUs) - wTR1ValueUs + PHPAL_FELICA_SW_T_DELTA_F_POLL_US;
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c: In function 'phpalFelica_Sw_GetFrameInfo':
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:292:15: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  292 |       *pLen = pResponseBuffer[bStartPos + PHHAL_HW_STATUS_FRAME_LEN_BYTE_POS] - (PHPAL_FELICA_SW_LEN_BYTE_SIZE + PHPAL_FELICA_SW_RESP_REQC_SIZE);
+      |               ^~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c: In function 'phpalFelica_Sw_ActivateCard':
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:410:29: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  410 |             bNumTimeSlots = (bNumTimeSlots << 1U) + 1U;
+      |                             ^
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c: In function 'phpalFelica_Sw_Exchange':
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:513:29: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  513 |                 wTxLength = wTxLength - 1u;
+      |                             ^~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:532:25: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  532 |             wTxLength = wTxLength - 1u;
+      |                         ^~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c:697:22: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  697 |         *pRxLength = *pRxLength - PHPAL_FELICA_IDM_LENGTH;
+      |                      ^
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU_Int.c
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.c: In function 'phhalHw_Pn5190_Instr_LPCD_SetConfig':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.c:906:51: warning: conversion from 'uint32_t' {aka 'long unsigned int'} to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  906 |             pDataParams->wLPCDWakeupCounterInMs = dwValue;
+      |                                                   ^~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.c: In function 'phhalHw_Pn5190_Instr_CtsRetrieveLog':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Instr.c:1990:25: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1990 |         *bLogDataSize = wRxLen;
+      |                         ^~~~~~
+Building file: ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/phhalHw.c
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c: In function 'phhalHw_Pn5190_WaitForEvent':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:125:25: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  125 |         wEventLength |= pDataParams->sIrqResp.pIsrEvtBuffPtr[3];
+      |                         ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:129:27: warning: conversion from 'int' to 'int16_t' {aka 'short int'} may change value [-Wconversion]
+  129 |         wEventLenToRead = wEventLength - (pDataParams->sIrqResp.bIsrBytesRead - bHeaderLen);
+      |                           ^~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:131:51: warning: operand of '?:' changes signedness from 'int16_t' {aka 'short int'} to 'unsigned int' due to unsignedness of other operand [-Wsign-compare]
+  131 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                                                   ^~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:131:67: warning: conversion to 'unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  131 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                                                                   ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:131:27: warning: conversion to 'uint16_t' {aka 'short unsigned int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+  131 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                           ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c: In function 'phhalHw_Pn5190_EventWait_AbortHandling':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:345:25: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  345 |         wEventLength |= pDataParams->sIrqResp.pIsrEvtBuffPtr[3];
+      |                         ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:349:27: warning: conversion from 'int' to 'int16_t' {aka 'short int'} may change value [-Wconversion]
+  349 |         wEventLenToRead = wEventLength - (pDataParams->sIrqResp.bIsrBytesRead - bHeaderLen);
+      |                           ^~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:351:51: warning: operand of '?:' changes signedness from 'int16_t' {aka 'short int'} to 'unsigned int' due to unsignedness of other operand [-Wsign-compare]
+  351 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                                                   ^~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:351:67: warning: conversion to 'unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  351 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                                                                   ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Wait.c:351:27: warning: conversion to 'uint16_t' {aka 'short unsigned int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+  351 |         wRemEventLength = (wEventLenToRead > 0) ? wEventLenToRead : 0x00U;
+      |                           ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_Init':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:225:45: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  225 |     pDataParams->wTxBufSize               = wTxBufSize - 1U;
+      |                                             ^~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:227:45: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  227 |     pDataParams->wRxBufSize               = wRxBufSize - 2U;
+      |                                             ^~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:203:41: warning: variable 'pinCfg' set but not used [-Wunused-but-set-variable]
+  203 |     phDriver_Pin_Config_t PH_MEMLOC_REM pinCfg;
+      |                                         ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_EnBootNormalMode':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:381:19: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  381 |     wPktLength |= pDataParams->sIrqResp.aISRReadBuf[TLV_LENGTH_LSB_INDEX];
+      |                   ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c: In function 'phhalHw_Pn5190_InstMngr_HandleCmd':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_SetConfig':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:114:26: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  114 |     wCurrTotalTxLength = pCmdParams->wTxDataLength + pCmdParams->wAddnDataLen + CMD_HEADER_LONG + 1;
+      |                          ^~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:1453:44: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1453 |             pDataParams->bTimerDeviation = wValue;
+      |                                            ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:1463:38: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1463 |             pDataParams->bCTSEvent = wValue;
+      |                                      ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c: In function 'phhalHw_Pn5190_InstMngr_PrepTlv_RFData':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:220:38: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  220 |         pDataParams->wTxFwDataLen =  pCmdParams->wAddnDataLen;
+      |                                      ^~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:1516:39: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1516 |             pDataParams->bRFONEvent = wValue;
+      |                                       ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:236:53: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  236 |          pTxBuffer[pDataParams->wTxBufStartPos++] = ((pDataParams->wTxBufLen & 0xff00U) >> 8);
+      |                                                     ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:1526:38: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1526 |             pDataParams->bAbortCMD = wValue;
+      |                                      ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c: In function 'phhalHw_Pn5190_InstMngr_PrepSnglTlv':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:1584:42: warning: conversion from 'uint16_t' {aka 'short unsigned int'} to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 1584 |             pDataParams->bFeliCaRxOnly = wValue;
+      |                                          ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:250:83: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  250 | static uint16_t  phhalHw_Pn5190_InstMngr_PrepSnglTlv(phhalHw_Pn5190_DataParams_t *pDataParams,
+      |                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c: In function 'phhalHw_Pn5190_InstMngr_ReadRsp':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:399:20: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  399 |     wRespLength |= pIsrBuffPtr[bIndex++];
+      |                    ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:408:22: warning: conversion from 'int' to 'int16_t' {aka 'short int'} may change value [-Wconversion]
+  408 |     wDataLenToRead = wRespLength - (pDataParams->sIrqResp.bIsrBytesRead - bHeaderLen);
+      |                      ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:423:53: warning: operand of '?:' changes signedness from 'int16_t' {aka 'short int'} to 'unsigned int' due to unsignedness of other operand [-Wsign-compare]
+  423 |             wRemRespLength = (wDataLenToRead > 0) ? wDataLenToRead : 0x00U;
+      |                                                     ^~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:423:68: warning: conversion to 'unsigned int' from 'int' may change the sign of the result [-Wsign-conversion]
+  423 |             wRemRespLength = (wDataLenToRead > 0) ? wDataLenToRead : 0x00U;
+      |                                                                    ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:423:30: warning: conversion to 'uint16_t' {aka 'short unsigned int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+  423 |             wRemRespLength = (wDataLenToRead > 0) ? wDataLenToRead : 0x00U;
+      |                              ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:424:31: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  424 |             wCopyRespLength = (((wDataLenToRead > 0) ? (pDataParams->sIrqResp.bIsrBytesRead - bHeaderLen) : wRespLength) - STATUS_FIELD_LEN);
+      |                               ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_InstMngr.c:474:38: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  474 |             *pCmdParams->pRxLength = wRespLength - STATUS_FIELD_LEN;
+      |                                      ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_Autocoll':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:2470:47: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+ 2470 |                                     wCrcIn |= (uint16_t)((*ppRxBuffer)[(*pRxLength) - 2U]);
+      |                                               ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:2473:51: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+ 2473 |                                     *pRxLength -= 2U;
+      |                                                   ^~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:2491:51: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+ 2491 |                                     *pRxLength -= 2U;
+      |                                                   ^~
+In file included from ../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:39:
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_Wait':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.h:81:57: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+   81 | #define PHHAL_HW_PN5190_MAX_TIME_DELAY_MS               19784U         /**< Pn5190 Maximum Time Delay in milli second = 19.78443396226.*/
+      |                                                         ^~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:2608:29: note: in expansion of macro 'PHHAL_HW_PN5190_MAX_TIME_DELAY_MS'
+ 2608 |                 wTimeout -= PHHAL_HW_PN5190_MAX_TIME_DELAY_MS;
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c: In function 'phhalHw_Pn5190_I18000p3m3Inventory':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190.c:2947:18: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+ 2947 |             bQ = (bBuff1 << 1) | (bBuff2 >> 7);
+      |                  ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c: In function 'phhalHw_Pn5190_Int_GetRxBuffer':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c:95:22: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+   95 |     *pRxBufferSize = pDataParams->wRxBufSize - pDataParams->wRxBufStartPos - bOffset;
+      |                      ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c: In function 'phhalHw_Pn5190_Int_SetTxDataRateFraming':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c:1097:44: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+ 1097 |         pDataParams->wCfgShadow[wConfig] = (wValue | (wFraming << 0x08U)) ;
+      |                                            ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c: In function 'phhalHw_Pn5190_Int_SetRxDataRateFraming':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c:1134:44: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+ 1134 |         pDataParams->wCfgShadow[wConfig] = (wValue | (wFraming << 0x08U));
+      |                                            ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c: In function 'phhalHw_Pn5190_Int_PCD_GetExchgFdt':
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c:1511:17: warning: conversion from 'double' to 'float32_t' {aka 'float'} may change value [-Wfloat-conversion]
+ 1511 |         fTime = ((dwTmp / 13.56) - 9.44 /* 1 ETU */);
+      |                 ^
+../src/nfc/NxpNfcRdLib/comps/phhalHw/src/Pn5190/phhalHw_Pn5190_Int.c:1517:25: warning: conversion from 'uint32_t' {aka 'long unsigned int'} to 'float32_t' {aka 'float'} may change value [-Wconversion]
+ 1517 |         fTime = ((dwTmp / (fTime / 1000U)));
+      |                         ^
+Building file: ../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phalFelica/src/phalFelica.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c: In function 'phalMfc_Int_CheckValueBlockFormat':
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c:143:20: warning: comparison of promoted bitwise complement of an unsigned value with unsigned [-Wsign-compare]
+  143 |         (pBlock[4] != (pBlock[0] ^ 0xFFU)) ||
+      |                    ^~
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c:144:20: warning: comparison of promoted bitwise complement of an unsigned value with unsigned [-Wsign-compare]
+  144 |         (pBlock[5] != (pBlock[1] ^ 0xFFU)) ||
+      |                    ^~
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c:145:20: warning: comparison of promoted bitwise complement of an unsigned value with unsigned [-Wsign-compare]
+  145 |         (pBlock[6] != (pBlock[2] ^ 0xFFU)) ||
+      |                    ^~
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c:146:20: warning: comparison of promoted bitwise complement of an unsigned value with unsigned [-Wsign-compare]
+  146 |         (pBlock[7] != (pBlock[3] ^ 0xFFU)) ||
+      |                    ^~
+../src/nfc/NxpNfcRdLib/comps/phalMfc/src/phalMfc_Int.c:149:21: warning: comparison of promoted bitwise complement of an unsigned value with unsigned [-Wsign-compare]
+  149 |         (pBlock[12] != (pBlock[13]^ 0xFFU)))
+      |                     ^~
+../src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c: In function 'phalFelica_Sw_Read':
+../src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c:245:40: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  245 |         pDataParams->wAdditionalInfo = ((uint16_t)pRxBuffer[0] << 8U) | (uint16_t)pRxBuffer[1];
+      |                                        ^
+../src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c: In function 'phalFelica_Sw_Write':
+../src/nfc/NxpNfcRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c:350:40: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  350 |         pDataParams->wAdditionalInfo = ((uint16_t)pRxBuffer[0] << 8U) | (uint16_t)pRxBuffer[1];
+      |                                        ^
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_ECP.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/phacDiscLoop.c
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c: In function 'phacDiscLoop_Sw_Int_EmvcoRemovalProcedure':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:519:85: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  519 |                                                      phacDiscLoop_Sw_DataParams_t * pDataParams
+      |                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+In file included from C:/01_src/HK/V1.0/HK/HK/src/nfc/NxpNfcRdLib/intfs/phacDiscLoop.h:25,
+                 from ../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:29:
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c: In function 'phacDiscLoop_Sw_Int_TechDetectActivity':
+C:/01_src/HK/V1.0/HK/HK/src/nfc/NxpNfcRdLib/types/ph_Status.h:139:41: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  139 | #define PH_ON                           0x0001U /**< Enabled. */
+      |                                         ^~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:725:48: note: in expansion of macro 'PH_ON'
+  725 |                 pDataParams->bDetectedTechs |= PH_ON << bTechIndex;
+      |                                                ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c: In function 'phacDiscLoop_Sw_Int_EmvcoTechDetectActivity':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c:863:44: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  863 |                             wPasBGTimeUs = pDataParams->waPasPollGTimeUs[bTechIndex] - PHAC_DISCLOOP_HALTA_TIMOUT_US;
+      |                                            ^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c: In function 'phacDiscLoop_Sw_DetTechTypeB':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c:38:71: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+   38 |                                         phacDiscLoop_Sw_DataParams_t *pDataParams
+      |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c: In function 'phacDiscLoop_Sw_Int_CollisionResolutionB':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c:85:84: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+   85 |                                                     phacDiscLoop_Sw_DataParams_t * pDataParams
+      |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c: In function 'phacDiscLoop_Sw_Int_ActivateB':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c:328:73: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  328 |                                          phacDiscLoop_Sw_DataParams_t * pDataParams,
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c:329:50: warning: unused parameter 'bTypeBTagIdx' [-Wunused-parameter]
+  329 |                                          uint8_t bTypeBTagIdx
+      |                                          ~~~~~~~~^~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c: In function 'phacDiscLoop_Sw_DetTechTypeI18000p3m3':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c:43:80: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+   43 |                                                  phacDiscLoop_Sw_DataParams_t *pDataParams
+      |                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c: In function 'phacDiscLoop_Sw_Int_CollisionResolutionI18000p3m3':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c:108:92: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  108 |                                                              phacDiscLoop_Sw_DataParams_t *pDataParams
+      |                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c: In function 'phacDiscLoop_Sw_Int_ActivateI18000p3m3':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c:331:82: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  331 |                                                   phacDiscLoop_Sw_DataParams_t * pDataParams,
+      |                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c:332:59: warning: unused parameter 'bI18000p3m3TagIdx' [-Wunused-parameter]
+  332 |                                                   uint8_t bI18000p3m3TagIdx
+      |                                                   ~~~~~~~~^~~~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c: In function 'phacDiscLoop_Sw_DetTechTypeV':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c:41:39: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+   41 |         phacDiscLoop_Sw_DataParams_t *pDataParams
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c: In function 'phacDiscLoop_Sw_Int_CollisionResolutionV':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c:72:39: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+   72 |         phacDiscLoop_Sw_DataParams_t *pDataParams
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c: In function 'phacDiscLoop_Sw_Int_ActivateV':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c:352:40: warning: unused parameter 'pDataParams' [-Wunused-parameter]
+  352 |         phacDiscLoop_Sw_DataParams_t * pDataParams,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c:353:17: warning: unused parameter 'bTypeVTagIdx' [-Wunused-parameter]
+  353 |         uint8_t bTypeVTagIdx
+      |         ~~~~~~~~^~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c: In function 'phacDiscLoop_Sw_SetConfig':
+../src/nfc/NxpNfcRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c:516:30: warning: logical 'and' of equal expressions [-Wlogical-op]
+  516 |         if ((wValue != 0x08) && (wValue != PH_NXPNFCRDLIB_CONFIG_DEFAULT_FSCI_VALUE))
+      |                              ^~
+Building file: ../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools_Q.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phTMIUtils/src/phTMIUtils.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_15693.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_18000p3m3.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Initialization.c
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_EncodeParity':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:70:24: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+   70 |         wInByteCount = wInBufferLength - 1u;
+      |                        ^~~~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_CalculateCrc5':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:322:32: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  322 |                 wDataLength -= 8u;
+      |                                ^~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:335:22: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  335 |             *pCrc ^= pData[wDataIndex++] & (0xFFU << (8U - bBitMax));
+      |                      ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:352:22: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  352 |             *pCrc ^= pData[wDataIndex++] & (0xFFU >> (8U - bBitMax));
+      |                      ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_CalculateCrc8':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:417:32: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  417 |                 wDataLength -= 8u;
+      |                                ^~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:430:22: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  430 |             *pCrc ^= pData[wDataIndex++] & (0xFFU << (8U - bBitMax));
+      |                      ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:447:22: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  447 |             *pCrc ^= pData[wDataIndex++] & (0xFFU >> (8U - bBitMax));
+      |                      ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_CalculateCrc16':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:506:32: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  506 |                 wDataLength -= 8u;
+      |                                ^~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:519:22: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  519 |             *pCrc ^= (uint16_t)pData[wDataIndex++] << 8U;
+      |                      ^
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:536:22: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  536 |             *pCrc ^= pData[wDataIndex++];
+      |                      ^~~~~
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_UpdateCrc_B':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:680:11: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  680 |     bCh = (bCh ^ (bCh<<4U));
+      |           ^
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:681:16: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  681 |     *pLpwCrc = (*pLpwCrc >> 8U) ^ ((uint16_t)bCh << 8U) ^ ((uint16_t)bCh << 3U) ^ ((uint16_t)bCh>>4U);
+      |                ^
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c: In function 'phTools_GetVersion':
+../src/nfc/NxpNfcRdLib/comps/phTools/src/phTools.c:740:30: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  740 |         *pVersionStringLen = wCopyLen - 1u;
+      |                              ^~~~~~~~
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFC.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFDF.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_MFUL.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phNfcLib/src/phNfcLib_Utility.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phKeyStore/src/phKeyStore.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Lrp.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Aes.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/phCryptoSym.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Int.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/Sw/phCryptoRng_Sw.c
+Building file: ../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/phCryptoRng.c
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Aes.c: In function 'phCryptoSym_Sw_Aes_DecryptBlock':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Aes.c:403:12: warning: conversion from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  403 |     for (i=bNumRounds - 1U; i > 0U; i--)
+      |            ^~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_Permutate_IP':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:297:26: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  297 |             outTmp[4] |= (uint8_t)(pStateIn[j] & 0x80U);
+      |                          ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:302:26: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  302 |             outTmp[0] |= (uint8_t)(pStateIn[j] & 0x80U);
+      |                          ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:308:22: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  308 |         outTmp[4] |= (uint8_t)(pStateIn[7] & 0x80U);
+      |                      ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:310:22: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  310 |         outTmp[0] |= (uint8_t)(pStateIn[7] & 0x80U);
+      |                      ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_Permutate_IP_Inv':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:360:29: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  360 |             pStateOut[i] |= (uint8_t)(inTmp[4] & 0x01U);
+      |                             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:362:29: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  362 |             pStateOut[i] |= (uint8_t)(inTmp[0] & 0x01U);
+      |                             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:370:25: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  370 |         pStateOut[i] |= (uint8_t)(inTmp[4] & 0x01U);
+      |                         ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:372:25: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  372 |         pStateOut[i] |= (uint8_t)(inTmp[0] & 0x01U);
+      |                         ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_PC1_Permutation':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:412:27: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  412 |             pKeyOut[i] |= (uint8_t)(pKeyInTmp[j] & 0x80U);
+      |                           ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:416:23: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  416 |         pKeyOut[i] |= (uint8_t)(pKeyInTmp[7] & 0x80U);
+      |                       ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_PC2_Permutation':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:443:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  443 |     pKeyOut[0] |= (uint8_t)((pKeyIn[2] & 0x01U) << 2U); /* Input bit 24 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:448:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  448 |     pKeyOut[1] |= (uint8_t)((pKeyIn[3] & 0x10U)); /* Input bit 28 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:449:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  449 |     pKeyOut[1] |= (uint8_t)((pKeyIn[1] & 0x02U) << 2U); /* Input bit 15 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:450:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  450 |     pKeyOut[1] |= (uint8_t)((pKeyIn[0] & 0x04U)); /* Input bit 6 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:459:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  459 |     pKeyOut[2] |= (uint8_t)((pKeyIn[0] & 0x01U)); /* Input bit 8 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:462:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  462 |     pKeyOut[3] |= (uint8_t)((pKeyIn[0] & 0x02U) << 3U); /* Input bit 7 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:469:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  469 |     pKeyOut[4] |= (uint8_t)((pKeyIn[6] & 0x01U) << 4U); /* Input bit 52 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:476:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  476 |     pKeyOut[5] |= (uint8_t)((pKeyIn[5] & 0x10U)); /* Input bit 40 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:477:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  477 |     pKeyOut[5] |= (uint8_t)((pKeyIn[6] & 0x02U) << 2U); /* Input bit 51 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:483:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  483 |     pKeyOut[6] |= (uint8_t)((pKeyIn[6] & 0x08U) << 1U); /* Input bit 49 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:490:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  490 |     pKeyOut[7] |= (uint8_t)((pKeyIn[5] & 0x04U) << 2U); /* Input bit 42 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:491:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  491 |     pKeyOut[7] |= (uint8_t)((pKeyIn[6] & 0x04U) << 1U); /* Input bit 50 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:492:19: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  492 |     pKeyOut[7] |= (uint8_t)((pKeyIn[4] & 0x01U) << 2U); /* Input bit 36 */
+      |                   ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_F':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:629:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  629 |     pR[2] |= (uint8_t)((bArray[0]& 0x02U ) << 5U);  /* Input bit 8 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:633:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  633 |     pR[3] |= (uint8_t)(bArray[0] & 0x02U);         /* Input bit 4 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:635:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  635 |     pR[2] |= (uint8_t)(bArray[0] & 0x02U);         /* Input bit 3 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:637:13: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  637 |     pR[1]|= (uint8_t)((bArray[1] & 0x02U) << 5U);   /* Input bit 15 */
+      |             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:638:13: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  638 |     pR[2]|= (uint8_t)((bArray[1] & 0x04U) << 2U);   /* Input bit 14 */
+      |             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:639:13: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  639 |     pR[3]|= (uint8_t)((bArray[1] & 0x08U) << 3U);   /* Input bit 13 */
+      |             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:641:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  641 |     pR[0] |= (uint8_t)(bArray[1]& 0x04U);          /* Input bit 12 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:643:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  643 |     pR[3] |= (uint8_t)(bArray[1]& 0x04U);          /* Input bit 11 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:645:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  645 |     pR[1] |= (uint8_t)(bArray[1]& 0x01U);          /* Input bit 10 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:647:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  647 |     pR[2] |= (uint8_t)(bArray[1]& 0x01U);          /* Input bit 9 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:651:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  651 |     pR[3] |= (uint8_t)((bArray[2] & 0x20U) << 2U);  /* Input bit 19 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:653:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  653 |     pR[0] |= (uint8_t)(bArray[2] & 0x20U);         /* Input bit 20 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:654:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  654 |     pR[0] |= (uint8_t)(bArray[2] & 0x10U);         /* Input bit 21 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:655:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  655 |     pR[3] |= (uint8_t)(bArray[2] & 0x08U);         /* Input bit 22 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:657:13: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  657 |     pR[1]|= (uint8_t)(bArray[2] & 0x20U);          /* Input bit 23 */
+      |             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:658:13: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  658 |     pR[2]|= (uint8_t)((bArray[2] & 0x10U) << 1U);   /* Input bit 24 */
+      |             ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:660:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  660 |     pR[0] |= (uint8_t)(bArray[3] & 0x08U);         /* Input bit 29 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:661:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  661 |     pR[1] |= (uint8_t)(bArray[3] & 0x02U);         /* Input bit 31 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:663:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  663 |     pR[2] |= (uint8_t)((bArray[3] & 0x01U) << 3U);  /* Input bit 32 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:664:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  664 |     pR[3] |= (uint8_t)((bArray[3] & 0x04U) << 3U);  /* Input bit 30 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:666:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  666 |     pR[1] |= (uint8_t)((bArray[3] & 0x10U));       /* Input bit 26 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:668:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  668 |     pR[2] |= (uint8_t)((bArray[3] & 0x04U));       /* Input bit 27 */
+Building file: ../src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.c
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:669:14: warning: conversion from 'int' to 'uint8_t' {aka 'unsigned char'} may change value [-Wconversion]
+  669 |     pR[0] |= (uint8_t)((bArray[3] & 0x02U));       /* Input bit 28 */
+      |              ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c: In function 'phCryptoSym_Sw_Des_DecodeVersion':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/Sw/phCryptoSym_Sw_Des.c:701:25: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  701 |         *pKeyVersion |= (((uint16_t)(pKey[bIndex])) & 0x01U) << (7U - bIndex);
+      |                         ^
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/phCryptoSym.c: In function 'phCryptoSym_GetLastStatus':
+../src/nfc/NxpNfcRdLib/comps/phCryptoSym/src/phCryptoSym.c:841:67: warning: unused parameter 'wStatusMsgLen' [-Wunused-parameter]
+  841 | phStatus_t phCryptoSym_GetLastStatus(void * pDataParams, uint16_t wStatusMsgLen, int8_t * pStatusMsg, int32_t * pStatusCode)
+      |                                                          ~~~~~~~~~^~~~~~~~~~~~~
+../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/Sw/phCryptoRng_Sw.c: In function 'phCryptoRng_Sw_Generate':
+../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/Sw/phCryptoRng_Sw.c:351:34: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  351 |             wNumBytesRequested = wNumBytesRequested - PHCRYPTORNG_SW_OUTLEN;
+      |                                  ^~~~~~~~~~~~~~~~~~
+Building file: ../src/nfc/phApp_Helper.c
+Building file: ../src/nfc/DAL/src/R7FA2L1AB2DFP/phbalReg_R7FA2L1AB2DFPOpenSpi.c
+Building file: ../src/nfc/nfc_ctrl.c
+Building file: ../src/nfc/phApp_Init.c
+../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/phCryptoRng.c: In function 'phCryptoRng_GetLastStatus':
+../src/nfc/NxpNfcRdLib/comps/phCryptoRng/src/phCryptoRng.c:147:67: warning: unused parameter 'wStatusMsgLen' [-Wunused-parameter]
+  147 | phStatus_t phCryptoRng_GetLastStatus(void * pDataParams, uint16_t wStatusMsgLen, int8_t * pStatusMsg, int32_t * pStatusCode)
+      |                                                          ~~~~~~~~~^~~~~~~~~~~~~
+Building file: ../src/nfc/phApp_PN5190_Init.c
+Building file: ../src/Task/CommandReceiver.cpp
+Building file: ../src/Task/DataManager.cpp
+Building file: ../src/Task/DebugCommand.cpp
+../src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.c: In function 'phDriver_PinConfigInterrupt':
+../src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.c:124:56: warning: unused parameter 'dwPinNumber' [-Wunused-parameter]
+  124 | static phStatus_t phDriver_PinConfigInterrupt(uint32_t dwPinNumber, phDriver_Pin_Config_t *pPinConfig)
+      |                                               ~~~~~~~~~^~~~~~~~~~~
+../src/nfc/DAL/src/R7FA2L1AB2DFP/phDriver_R7FA2L1AB2DFPOpen.c:124:92: warning: unused parameter 'pPinConfig' [-Wunused-parameter]
+  124 | static phStatus_t phDriver_PinConfigInterrupt(uint32_t dwPinNumber, phDriver_Pin_Config_t *pPinConfig)
+      |                                                                     ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+Building file: ../src/Task/EventSender.cpp
+Building file: ../src/Task/FwUpdater.cpp
+Building file: ../src/Task/NfcReader.cpp
+../src/nfc/phApp_PN5190_Init.c: In function 'phApp_CallBack':
+../src/nfc/phApp_PN5190_Init.c:209:18: warning: conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  209 |     wEventLen |= ((uint16_t) pHal->sIrqResp.pIsrEvtBuffPtr[3]);
+      |                  ^
+Building file: ../src/Task/OutputController.cpp
+Building file: ../src/StateTransition/EventControl.cpp
+Building file: ../src/StateTransition/BaseTask.cpp
+Building file: ../src/StateTransition/TaskControl.cpp
+Building file: ../src/StateTransition/State.cpp
+In file included from C:/01_src/HK/V1.0/HK/HK/ra/fsp/inc/api/bsp_api.h:57,
+                 from C:/01_src/HK/V1.0/HK/HK/ra_gen/hal_data.h:5,
+                 from ../src/Task/../StateTransition/common.h:19,
+                 from ../src/Task/../StateTransition/BaseHandler.h:8,
+                 from ../src/Task/../StateTransition/State.h:9,
+                 from ../src/Task/../StateTransition/BaseTask.h:8,
+                 from ../src/Task/DebugCommand.h:8,
+                 from ../src/Task/Task.h:9,
+                 from ../src/Task/FwUpdater.cpp:6:
+../src/Task/FwUpdater.cpp: In member function 'TYPE_ERROR FwUpdater::EraseCodeFlash()':
+c:\01_src\hk\v1.0\hk\hk\ra\fsp\src\bsp\mcu\all\bsp_common.h:156:61: warning: declaration of 'old_mask_level' shadows a previous local [-Wshadow]
+  156 |  #define FSP_CRITICAL_SECTION_DEFINE               uint32_t old_mask_level = 0U
+      |                                                             ^~~~~~~~~~~~~~
+../src/Task/../StateTransition/common.h:30:26: note: in expansion of macro 'FSP_CRITICAL_SECTION_DEFINE'
+   30 |     #define DEFINE_INT() FSP_CRITICAL_SECTION_DEFINE;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Task/FwUpdater.cpp:391:17: note: in expansion of macro 'DEFINE_INT'
+  391 |                 DEFINE_INT();
+      |                 ^~~~~~~~~~
+c:\01_src\hk\v1.0\hk\hk\ra\fsp\src\bsp\mcu\all\bsp_common.h:156:61: note: shadowed declaration is here
+  156 |  #define FSP_CRITICAL_SECTION_DEFINE               uint32_t old_mask_level = 0U
+      |                                                             ^~~~~~~~~~~~~~
+../src/Task/../StateTransition/common.h:30:26: note: in expansion of macro 'FSP_CRITICAL_SECTION_DEFINE'
+   30 |     #define DEFINE_INT() FSP_CRITICAL_SECTION_DEFINE;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Task/FwUpdater.cpp:369:9: note: in expansion of macro 'DEFINE_INT'
+  369 |         DEFINE_INT();
+      |         ^~~~~~~~~~
+Building file: ../src/StateTransition/common.cpp
+Building file: ../src/Device/AGT.cpp
+Building file: ../src/Device/ADC.cpp
+Building file: ../src/Device/IOPort.cpp
+Building file: ../src/Device/PWM.cpp
+Building file: ../src/Device/UART.cpp
+Building file: ../src/Device/WDT.cpp
+Building file: ../src/hal_entry.cpp
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/fsp/src/rm_vee_flash/rm_vee_flash.c
+Building file: ../ra/fsp/src/r_wdt/r_wdt.c
+Building file: ../ra/fsp/src/r_spi/r_spi.c
+Building file: ../ra/fsp/src/r_sci_uart/r_sci_uart.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/r_icu/r_icu.c
+Building file: ../ra/fsp/src/r_gpt/r_gpt.c
+Building file: ../ra/fsp/src/r_flash_lp/r_flash_lp.c
+Building file: ../ra/fsp/src/r_dtc/r_dtc.c
+Building file: ../ra/fsp/src/r_agt/r_agt.c
+Building file: ../ra/fsp/src/r_adc/r_adc.c
+Building file: ../ra/fsp/src/bsp/mcu/ra2l1/bsp_power.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building target: HK.elf
+arm-none-eabi-objcopy -O srec "HK.elf"  "HK.srec"
+arm-none-eabi-size --format=berkeley "HK.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 118224	      0	  29624	 147848	  24188	HK.elf
+15:25:31 **** Boot Image Build of configuration Debug for project HK ****
+python "C:\\01_src\\HK\\V1.0\\HK\\mcuboot_ra2l1/ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port_sign.py" sign --header-size 0x100 --align 8 --max-align 8 --slot-size 0x1e000 --max-sectors 60 --overwrite-only --confirm --pad-header HK.elf HK.bin.signed 
+ 
+Packaging application image with version from environment variable MCUBOOT_IMAGE_VERSION: 1.0.0 and key from MCUBOOT_IMAGE_SIGNING_KEY: C:\01_src\HK\V1.0\HK\mcuboot_ra2l1/ra/mcu-tools/MCUboot/root-ec-p256.pem
+python imgtool.py sign --key C:\01_src\HK\V1.0\HK\mcuboot_ra2l1/ra/mcu-tools/MCUboot/root-ec-p256.pem --version 1.0.0 --header-size 0x100 --align 8 --max-align 8 --slot-size 0x1e000 --max-sectors 60 --overwrite-only --confirm --pad-header HK.temp.bin HK.bin.signed
+15:25:33 Build finished
+Extracting support files...
+15:25:41 **** プロジェクト mcuboot_ra2l1 に対する構成 Debug の クリーンのみのビルド ****
+make -r -j12 clean 
+rm -rf mcuboot_ra2l1.siz ./src/hal_entry.d ./ra_gen/common_data.d ./ra_gen/hal_data.d ./ra_gen/main.d ./ra_gen/pin_data.d ./ra_gen/vector_data.d ./ra/mcu-tools/MCUboot/sim/mcuboot-sys/csupport/keys.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_decrypt.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_encrypt.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cbc_mode.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ccm_mode.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cmac_mode.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_mode.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_prng.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dh.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dsa.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_platform_specific.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/gcm_mode.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac_prng.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/sha256.d ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/utils.d ./ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/asn1parse.d ./ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/platform_util.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/caps.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/loader.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.d ./ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.d ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_ec256.d ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_rsa.d ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_keys.d ./ra/fsp/src/rm_mcuboot_port/flash_map.d ./ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.d ./ra/fsp/src/r_ioport/r_ioport.d ./ra/fsp/src/r_flash_lp/r_flash_lp.d ./ra/fsp/src/bsp/mcu/ra2l1/bsp_power.d ./ra/fsp/src/bsp/mcu/all/bsp_clocks.d ./ra/fsp/src/bsp/mcu/all/bsp_common.d ./ra/fsp/src/bsp/mcu/all/bsp_delay.d ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.d ./ra/fsp/src/bsp/mcu/all/bsp_guard.d ./ra/fsp/src/bsp/mcu/all/bsp_io.d ./ra/fsp/src/bsp/mcu/all/bsp_irq.d ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.d ./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.d ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.d ./ra/fsp/src/bsp/mcu/all/bsp_security.d ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.d ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.d ./src/hal_entry.o ./ra_gen/common_data.o ./ra_gen/hal_data.o ./ra_gen/main.o ./ra_gen/pin_data.o ./ra_gen/vector_data.o ./ra/mcu-tools/MCUboot/sim/mcuboot-sys/csupport/keys.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_decrypt.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_encrypt.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cbc_mode.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ccm_mode.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cmac_mode.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_mode.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_prng.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dh.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dsa.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_platform_specific.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/gcm_mode.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac_prng.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/sha256.o ./ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/utils.o ./ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/asn1parse.o ./ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/platform_util.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/caps.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/loader.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.o ./ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.o ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_ec256.o ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_rsa.o ./ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_keys.o ./ra/fsp/src/rm_mcuboot_port/flash_map.o ./ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.o ./ra/fsp/src/r_ioport/r_ioport.o ./ra/fsp/src/r_flash_lp/r_flash_lp.o ./ra/fsp/src/bsp/mcu/ra2l1/bsp_power.o ./ra/fsp/src/bsp/mcu/all/bsp_clocks.o ./ra/fsp/src/bsp/mcu/all/bsp_common.o ./ra/fsp/src/bsp/mcu/all/bsp_delay.o ./ra/fsp/src/bsp/mcu/all/bsp_group_irq.o ./ra/fsp/src/bsp/mcu/all/bsp_guard.o ./ra/fsp/src/bsp/mcu/all/bsp_io.o ./ra/fsp/src/bsp/mcu/all/bsp_irq.o ./ra/fsp/src/bsp/mcu/all/bsp_register_protection.o ./ra/fsp/src/bsp/mcu/all/bsp_rom_registers.o ./ra/fsp/src/bsp/mcu/all/bsp_sbrk.o ./ra/fsp/src/bsp/mcu/all/bsp_security.o ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.o ./ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.o mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.srec mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map mcuboot_ra2l1.map
+rm -rf  mcuboot_ra2l1.elf
+ 
+Extracting support files...
+15:25:42 **** プロジェクト mcuboot_ra2l1 に対する構成 Debug の ビルド ****
+make -r -j12 all 
+make --no-print-directory pre-build
+del mcuboot_ra2l1.elf
+process_begin: CreateProcess(NULL, del mcuboot_ra2l1.elf, ...) failed.
+make (e=2): 謖?螳壹＆繧後◆繝輔ぃ繧､繝ｫ縺瑚ｦ九▽縺九ｊ縺ｾ縺帙ｓ縲?
+
+make[1]: [makefile:124: pre-build] Error 2 (ignored)
+ 
+make --no-print-directory main-build
+Building file: ../src/hal_entry.c
+Building file: ../ra_gen/common_data.c
+Building file: ../ra_gen/hal_data.c
+Building file: ../ra_gen/main.c
+Building file: ../ra_gen/pin_data.c
+Building file: ../ra_gen/vector_data.c
+Building file: ../ra/mcu-tools/MCUboot/sim/mcuboot-sys/csupport/keys.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_decrypt.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/aes_encrypt.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cbc_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ccm_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/cmac_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ctr_prng.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dh.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_dsa.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/ecc_platform_specific.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/gcm_mode.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/hmac_prng.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/sha256.c
+Building file: ../ra/mcu-tools/MCUboot/ext/tinycrypt/lib/source/utils.c
+Building file: ../ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/asn1parse.c
+Building file: ../ra/mcu-tools/MCUboot/ext/mbedtls-asn1/src/platform_util.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/boot_record.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_misc.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/bootutil_public.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/caps.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/encrypted.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/fault_injection_hardening_delay_rng_mbedtls.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ec256.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_ed25519.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_rsa.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/image_validate.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/loader.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_misc.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_move.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/swap_scratch.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_ec256.c
+Building file: ../ra/mcu-tools/MCUboot/boot/bootutil/src/tlv.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_image_rsa.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/custom_crypto_stacks/protected_mode/sce9_keys.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/flash_map.c
+Building file: ../ra/fsp/src/rm_mcuboot_port/rm_mcuboot_port.c
+Building file: ../ra/fsp/src/r_ioport/r_ioport.c
+Building file: ../ra/fsp/src/r_flash_lp/r_flash_lp.c
+Building file: ../ra/fsp/src/bsp/mcu/ra2l1/bsp_power.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_clocks.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_common.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_delay.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_group_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_guard.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_io.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_irq.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_register_protection.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_rom_registers.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_sbrk.c
+Building file: ../ra/fsp/src/bsp/mcu/all/bsp_security.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/startup.c
+Building file: ../ra/fsp/src/bsp/cmsis/Device/RENESAS/Source/system.c
+Building target: mcuboot_ra2l1.elf
+arm-none-eabi-objcopy -O srec "mcuboot_ra2l1.elf"  "mcuboot_ra2l1.srec"
+arm-none-eabi-size --format=berkeley "mcuboot_ra2l1.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13560	      0	   4720	  18280	   4768	mcuboot_ra2l1.elf
